@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: IRANYekanBold;
+    src: url(../font/IRANYekanBold.ttf);
+    font-weight: bold;
+  }
+  
+ @font-face {
+    font-family: IRANYekanLight;
+    src: url(../font/IRANYekanLight.ttf);
+  }
+ 
+  @font-face {
+    font-family: IRANYekanRegular;
+    src: url(../font/IRANYekanRegular.ttf);
+  }
+
+  #Staticbody{
+    width: 99%;
+    float: right;
+    min-height:534px;
+    border-bottom: 2px #FF8800 solid !important;
+    padding:0px;
+   
+ }
+
+.StaticTitle{
+    font: 15px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+   
+}
+
+#line{
+    width: 100%;
+    float: right;
+    min-height: 255px;
+}
+
+#vertical{
+    width: 50%;
+    float: right;
+    min-height: 255px;
+}
+
+#horizantal{
+    width: 100%;
+    min-height:245px;
+}
+
+#circle{
+    width: 100%;
+    float: right;
+    min-height: 255px;
+ 
+}
+
+#circle tspan{
+    font: 10px all-petite-caps  !important;
+    font-family: IRANYekanBold  !important; 
+  
+}

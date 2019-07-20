@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: IRANYekanBold;
+    src: url(../font/IRANYekanBold.ttf);
+    font-weight: bold;
+  }
+  
+ @font-face {
+    font-family: IRANYekanLight;
+    src: url(../font/IRANYekanLight.ttf);
+  }
+ 
+  @font-face {
+    font-family: IRANYekanRegular;
+    src: url(../font/IRANYekanRegular.ttf);
+  }
+
+
+.center{
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+#name{
+    width:220px;
+    height: 30px !important;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 5px !important;
+}
+
+.dropdown{
+    float: right;
+    direction: rtl;
+    font: 12px all-petite-caps  !important;
+    margin: 10px;
+}
+
+#category input{
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+#category strong{
+  margin: 0px 5px;
+  font: 12px all-petite-caps  !important;
+  font-family: IRANYekanRegular  !important; 
+}
+
+#AddSectionnumber{
+    font: 12px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+    border: 1px darkgray solid !important;
+    margin: 15px 7px;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#Sectionlabel{
+    margin: 15px 15px 0px 0px;
+    float: right;
+}

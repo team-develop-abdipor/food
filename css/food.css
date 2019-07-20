@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: IRANYekanBold;
+    src: url(../font/IRANYekanBold.ttf);
+    font-weight: bold;
+  }
+  
+ @font-face {
+    font-family: IRANYekanLight;
+    src: url(../font/IRANYekanLight.ttf);
+  }
+ 
+  @font-face {
+    font-family: IRANYekanRegular;
+    src: url(../font/IRANYekanRegular.ttf);
+  }
+
+  
+.center{
+    text-align: center !important;
+    margin: 0 auto;
+    
+}
+
+.modal-header h4{
+    font: 15px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+}
+
+
+
+#RowTitle{
+    width: 20px;
+}
+
+#steTitle{
+
+    width: 500px;
+}
+
+#category{
+
+}
+
+#name{
+    width: 222px;
+    padding: 5px;
+    height: 30px;
+    margin: 16px;
+}
+
+#ste{
+    text-align: rtl;
+    width:220px;
+    float: right;
+    direction: rtl;
+    margin: 15px!important;
+    padding: 5px;
+}
+
+#image{
+    text-align: rtl;
+    width: 200px;
+    float: right;
+    direction: rtl;
+    cursor: pointer;
+
+}
+
+#EditBody img{
+    margin: -10px 10px;
+}
+
+#cat{
+    display: block !important;
+}
+
+#food{
+    display: block !important;
+}
+
+#catFood
+{
+    width: 150px;
+    float: right;
+    direction: rtl;
+    margin-right:20px !important; 
+    cursor: pointer;
+}
+
+#price{
+    text-align: rtl;
+    width:100px;
+    float: right;
+    direction: rtl;
+    margin-top: 15px!important;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#supply{
+    text-align: rtl;
+    width:100px;
+    float: right;
+    direction: rtl;
+    margin:10px 27px !important;
+    padding: 5px;
+    text-align: center;
+}
+
+#desc{
+    text-align: right;
+     width: 220px;
+    resize: none;
+    float: right;
+    direction: rtl;
+    max-height: 100px;
+    margin-right:20px !important;  
+    margin: 10px 0px;
+}
+#desc:focus{
+    border-bottom: 1px #FF8800 solid !important; 
+}
+
+.newRow{
+  margin-top:20px;
+}
+
+#EditBody{
+    float: right;
+}
+
+#category{
+    margin: 0px 20px;
+}
+

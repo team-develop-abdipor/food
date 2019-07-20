@@ -1,0 +1,48 @@
+.center{
+    text-align: center !important;
+    margin: 0 auto;
+    
+}
+
+ 
+#name{
+    width: 222px;
+    padding: 5px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+.label{
+    margin: 15px 0px;
+    color: black;
+    font: 10px tahoma;
+    float: right;
+    padding:0px !important;
+}
+
+#job{
+    width: 225px;
+    padding: 5px;
+    height: 30px;
+    margin-right: 45px;
+    margin-top: 10px;
+}
+
+#section{
+    width: 225px;
+    margin-right: 62px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#phone{
+    width: 225px;
+    padding: 5px;
+    height: 30px;
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: left;
+}
+

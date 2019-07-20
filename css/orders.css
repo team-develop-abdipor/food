@@ -1,0 +1,22 @@
+.center{
+    text-align: center !important;
+    
+    
+}
+
+.tableRow{
+    font: 12px tahoma;
+    text-align: center;
+}
+
+#details{
+    margin:5px 5px 10px 30px;
+    cursor: pointer;
+    font-size:20px
+}
+
+#detailsKitchen{
+    cursor: pointer;
+    font-size:20px
+}
+

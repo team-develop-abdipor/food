@@ -1,0 +1,240 @@
+/* Distributed as part of The Coolest DHTML Calendar
+   Author: Mihai Bazon, www.bazon.net/mishoo
+   Copyright Dynarch.com 2005, www.dynarch.com
+*/
+
+/* The main calendar widget.  DIV containing a table. */
+
+div.calendar { position: relative; }
+
+.calendar, .calendar table {
+  border: 1px solid #bdb2bf !important;
+  font-size: 11px !important;
+  color: #000 !important;
+  cursor: default !important;
+  background: url("normal-bg.gif") !important;
+  font-family: "trebuchet ms",verdana,tahoma,sans-serif !important;
+}
+
+.calendar {
+  border-color: #797979 !important;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center !important;  /* They are the navigation buttons */
+  padding: 2px !important;        /* Make the buttons seem like they're pressing */
+  background: url("title-bg.gif") repeat-x 0 100%; color: #000 !important;
+  font-weight: bold !important;
+  
+}
+
+.calendar .nav {
+  font-family: verdana,tahoma,sans-serif !important;
+}
+
+.calendar .nav div {
+  background: transparent url("menuarrow.gif") no-repeat 100% 100% !important;
+}
+
+.calendar thead tr { background: url("title-bg.gif") repeat-x 0 100% !important; color: #000 !important; }
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold !important;     /* Pressing it will take you to the current date */
+  text-align: center !important;
+  padding: 2px !important;
+  background: url("title-bg.gif") repeat-x 0 100%; color: #000 !important;
+    width:100% !important;
+ 
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid #797979 !important;
+  padding: 2px !important;
+  text-align: center !important;
+  color: #000 !important;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: #c44 !important;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+  background: url("hover-bg.gif") !important;
+  border-bottom: 1px solid #797979 !important;
+  padding: 2px 2px 1px 2px !important;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+  background: url("active-bg.gif"); color: #fff !important;
+  padding: 3px 1px 0px 3px !important;
+  border-bottom: 1px solid #797979 !important;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+  background: url("dark-bg.gif") !important;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  font-family: verdana,tahoma,sans-serif !important;
+  width: 2em !important;
+  color: #000 !important;
+  text-align: right !important;
+  padding: 2px 4px 2px 2px !important;
+}
+.calendar tbody .day.othermonth {
+  font-size: 80% !important;
+  color: #999 !important;
+}
+.calendar tbody .day.othermonth.oweekend {
+  color: #f99 !important;
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px !important;
+  border-right: 1px solid #797979 !important;
+  background: url("dark-bg.gif") !important;
+}
+
+.calendar tbody .rowhilite td,
+.calendar tbody .rowhilite td.wn {
+  background: url("rowhover-bg.gif") !important;
+}
+
+.calendar tbody td.today { font-weight: bold; /* background: url("today-bg.gif") no-repeat 70% 50%; */ }
+
+.calendar tbody td.hilite { /* Hovered cells <TD> */
+  background: url("hover-bg.gif") !important;
+  padding: 1px 3px 1px 1px !important;
+  border: 1px solid #bbb !important;
+ 
+}
+
+.calendar tbody td.active { /* Active (pressed) cells <TD> */
+  padding: 2px 2px 0px 2px !important;
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  color: #c44 !important;
+}
+
+.calendar tbody td.selected { /* Cell showing selected date */
+  font-weight: bold !important;
+  border: 1px solid #797979 !important;
+  padding: 1px 3px 1px 1px !important;
+  background: url("active-bg.gif"); color: #fff !important;
+}
+
+.calendar tbody .disabled { color: #999 !important; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  visibility: hidden !important;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+  display: none !important;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  text-align: center !important;
+  background: #565 !important;
+  color: #fff !important;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  padding: 2px !important;
+  background: url("status-bg.gif") repeat-x 0 0; color: #000 !important;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+  background: #afa !important;
+  border: 1px solid #084 !important;
+  color: #000 !important;
+  padding: 1px !important;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+  background: #7c7 !important;
+  padding: 2px 0px 0px 2px !important;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.calendar .combo {
+  position: absolute !important;
+  display: none !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 4em !important;
+  cursor: default !important;
+  border-width: 0 1px 1px 1px !important;
+  border-style: solid !important;
+  border-color: #797979 !important;
+  background: url("normal-bg.gif") !important;color: #000 !important;
+  z-index: 100 !important;
+  font-size: 90% !important;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+  text-align: center !important;
+  padding: 1px !important;
+}
+
+.calendar .combo .label-IEfix {
+  width: 4em !important;
+}
+
+.calendar .combo .hilite {
+  background: url("hover-bg.gif")!important; color: #000 !important;
+}
+
+.calendar .combo .active {
+  background: url("active-bg.gif") !important;color: #fff !important;
+  font-weight: bold !important;
+}
+
+.calendar td.time {
+  border-top: 1px solid #797979 !important;
+  padding: 1px 0px !important;
+  text-align: center !important;
+  background: url("dark-bg.gif") !important;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+  padding: 0px 5px 0px 6px !important;
+  font-weight: bold !important;
+  background: url("normal-bg.gif"); color: #000 !important;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute {
+  font-family: monospace !important;
+}
+
+.calendar td.time .ampm {
+  text-align: center !important;
+}
+
+.calendar td.time .colon {
+  padding: 0px 2px 0px 3px !important;
+  font-weight: bold !important;
+}
+
+.calendar td.time span.hilite {
+  background: url("hover-bg.gif") !important; color: #000 !important;
+}
+
+.calendar td.time span.active {
+  background: url("active-bg.gif") !important;olor: #fff !important;
+}

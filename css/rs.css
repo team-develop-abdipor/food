@@ -1,0 +1,19 @@
+.center{
+    text-align: center !important;
+    margin: 0 auto;
+    
+}
+
+.tableRow{
+    font: 12px tahoma;
+    text-align: center;
+    direction: rtl;
+    width: 900px;
+    float: right;
+    margin:10px 30px;
+}
+
+#RowTitle{
+    width: 20px;
+}
+

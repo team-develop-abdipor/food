@@ -1,0 +1,150 @@
+
+@font-face {
+   font-family: IRANYekanBold;
+   src: url(../font/IRANYekanBold.ttf);
+   font-weight: bold;
+ }
+ 
+@font-face {
+   font-family: IRANYekanLight;
+   src: url(../font/IRANYekanLight.ttf);
+ }
+
+ @font-face {
+   font-family: IRANYekanRegular;
+   src: url(../font/IRANYekanRegular.ttf);
+ }
+
+
+.center{
+   text-align: center !important;  
+}
+a{
+   color: blue;
+}
+.tableRow{
+   font: 13px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+}
+
+.menufont{
+   font: 15px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important;   
+}
+
+.fonticon{
+   font-size: 30px !important;  
+}
+
+.title{
+   margin: 10px 0px;
+   padding: 15px 5px 5px 0px;
+   border-bottom: 1px #FF8800 solid !important;
+   width: 99%;  
+}
+
+.title h3{
+   font: 20px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+   margin-right: 10px; 
+}
+button{
+   font: 11px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+}
+
+input{
+   font: 12px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+   border: 1px darkgray solid;
+   border-radius: 5px !important;
+    
+}
+
+textarea{
+   font: 12px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+   border: 1px darkgray solid !important;
+   padding: 3px;
+   border-radius: 5px !important;
+}
+input:focus{
+   border-bottom: 1px #FF8800 solid !important;
+}
+
+.ModalTitle{
+   text-align: center !important;  
+   width: 100% !important;
+}
+.modal-body strong{
+
+   font: 12px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+}
+
+#EditBody{
+   text-align: right;
+   direction: rtl;
+   width: 70%;
+   min-height: 50px;
+   margin: 0 auto;
+ 
+}
+.modal-header h4{
+   font: 15px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+}
+
+.labele{    
+   background: transparent !important;
+   color: black;
+   float: right !important;
+   padding: 0PX !important;
+   direction: rtl;   
+   font: 12px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+   margin: 10px 0px;
+}
+
+
+.rtl{
+   direction: rtl;
+   text-align: right;
+   justify-content: right !important;
+}
+
+.dropdown{
+   text-align: rtl;
+   width:220px;
+   float: right;
+   direction: rtl;
+   cursor: pointer;
+   padding: 5px;
+   margin-top: 5px;
+   font: 12px all-petite-caps  !important;
+   font-family: IRANYekanRegular  !important; 
+   border: 1px darkgray solid;
+   border-radius: 5px !important;
+}
+
+modal-footer button{
+ 
+   margin: 10px;
+}
+
+
+#body{
+   width: 99%;
+   float: right;
+   min-height:534px;
+   border-bottom: 2px #FF8800 solid !important;
+   padding:0px 5px;
+   background: #fff;
+   margin-bottom: 10px;
+}
+
+#footer{
+  text-align: left;
+   direction: ltr;
+}
+

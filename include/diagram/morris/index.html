@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>7Learn.com - Morris.JS</title>
+	<link rel="stylesheet" href="morris.css">
+	<style type="text/css">
+		#line, #area, #bar, #donut {
+			width: 500px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Line Chart :</h1>
+	<div id="line"></div>
+
+	<h1>Area Chart :</h1>
+	<div id="area"></div>
+
+	<h1>Bar Chart :</h1>
+	<div id="bar"></div>
+
+	<h1>Donut Chart :</h1>
+	<div id="donut"></div>
+
+	<script src="jquery.min.js"></script>
+	<script src="raphael-min.js"></script>
+	<script src="morris.min.js"></script>
+	<script type="text/javascript">
+		new Morris.Line({
+			element: 'line',
+			data: [
+				{ y: '2006', a: 100 },
+				{ y: '2007', a: 75 },
+				{ y: '2008', a: 30 },
+				{ y: '2009', a: 75},
+				{ y: '2010', a: 50 },
+				{ y: '2011', a: 75},
+				{ y: '2012', a: 100 }
+			],
+			xkey: 'y',
+			ykeys: ['a'],
+			labels: ['Series A', 'Series B']
+		});
+
+		new Morris.Area({
+			element: 'area',
+			data: [
+				{ y: '2006', a: 100, b: 90 },
+				{ y: '2007', a: 75,  b: 65 },
+				{ y: '2008', a: 30,  b: 40 },
+				{ y: '2009', a: 75,  b: 65 },
+				{ y: '2010', a: 50,  b: 40 },
+				{ y: '2011', a: 75,  b: 40 },
+				{ y: '2012', a: 100, b: 90 }
+			],
+			xkey: 'y',
+			ykeys: ['a', 'b'],
+			labels: ['Series A', 'Series B']
+		});
+
+		new Morris.Bar({
+			element: 'bar',
+			data: [
+				{ year: '2008', value: 20 },
+				{ year: '2009', value: 10 },
+				{ year: '2010', value: 5 },
+				{ year: '2011', value: 5 },
+				{ year: '2012', value: 20 }
+			],
+			xkey: 'year',
+			ykeys: ['value'],
+			labels: ['Value']
+		});
+
+		new Morris.Donut({
+			element: 'donut',
+			data: [
+				{ label: '2008', value: 20 },
+				{ label: '2009', value: 10 },
+				{ label: '2010', value: 5 },
+				{ label: '2011', value: 5 },
+				{ label: '2012', value: 20 }
+			]
+		});
+	</script>
+</body>
+</html>

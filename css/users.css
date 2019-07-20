@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: IRANYekanBold;
+    src: url(../font/IRANYekanBold.ttf);
+    font-weight: bold;
+  }
+  
+ @font-face {
+    font-family: IRANYekanLight;
+    src: url(../font/IRANYekanLight.ttf);
+  }
+ 
+  @font-face {
+    font-family: IRANYekanRegular;
+    src: url(../font/IRANYekanRegular.ttf);
+  }
+
+.labele{
+    margin:10px 5px;
+}
+#username{
+    width: 77%;
+    padding: 5px;
+    margin: 5px -2px;
+    text-align: center;
+}
+
+#pass{
+    width: 77%;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 8px;
+}
+
+#Repass{
+    width: 77%;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 3px;
+}
+
+#Editpass{
+    width: 77%;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 8px;
+}
+
+#EditRepass{
+    width: 77%;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 3px;
+}
+
+#section{
+    width: 77%;
+    padding: 5px;
+    margin: 5px 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sectionLabel{
+    margin-top: 10px !important;
+    margin-left: 10px;
+}
+
+#accesslable{
+    margin: 10px 0px;
+    padding-right : 0px !important;
+}
+#access{
+    width: 77%;
+    height: 250px;
+    margin:0px 60px 10px 0px;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    cursor: pointer;
+    border: 1px darkgray solid;
+    border-radius: 10px;
+    color:black;
+    
+}
+
+ 
+ optgroup{
+    font: 15px all-petite-caps  !important;
+    font-family: IRANYekanBold  !important; 
+
+}
+
+optgroup option{
+    font: 12px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+}

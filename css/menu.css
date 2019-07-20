@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: IRANYekanBold;
+    src: url(../font/IRANYekanBold.ttf);
+    font-weight: bold;
+  }
+  
+@font-face {
+    font-family: IRANYekanLight;
+    src: url(../font/IRANYekanLight.ttf);
+  }
+
+  @font-face {
+    font-family: IRANYekanRegular;
+    src: url(../font/IRANYekanRegular.ttf);
+  }
+
+#header{
+    min-width: 220px !important;
+    padding: 0px;
+    direction: rtl;
+    float: right;
+}
+
+#header #logo{
+  width: 80px;
+   margin:0px;
+   padding: 5px 14px 5px 0px;
+ 
+}
+ 
+ #header #title{
+    float: right;
+    text-align: right;
+    direction: rtl;
+    margin: 0px;
+}
+
+#title h2{
+    float: right  !important;;
+    text-align: justify  !important;;
+    font: 15px all-petite-caps  !important;;
+    font-family: IRANYekanRegular  !important;;
+    color: #fff !important;
+    margin:10px 5px 0px 0px !important;
+}
+ #title h4{
+    float: right;
+    text-align: right;
+    font: 12px all-petite-caps;
+    font-family: IRANYekanRegular;
+    color: rgb(146, 143, 143)!important;
+    margin-right: 5px;
+}
+
+.font-icon{
+    font-size: 30px; 
+     margin-right: 10px;
+     float: right !important;
+  }
+
+
+
+#menu ul{
+    float: right;
+    direction: rtl;
+    border: 1px solid #CCC;
+    background: #fff;
+    width: 100%;
+    box-shadow: 2px blueviolet;
+    cursor: pointer;
+ 
+    margin-bottom: 0px !important;
+    padding: 5px 0px;
+    
+}
+#menu ul li{
+    float: right;
+    direction: rtl;
+    border: 0px ;
+    background:#fff;
+    padding: 3px 15px 3px 0px;
+    width: 91%; 
+}
+
+#menu ul li:hover{
+    width: 85%;
+    margin:0px 10px;
+    padding:0px 10px 3px 0px; 
+    border-radius: 20px;
+  
+}
+
+#menu ul li:hover a{
+ color: #fff;
+}
+
+#menu ul li a{
+    font: 12px IRANYekanRegular;
+    color: black;
+    background: transparent;
+}
+
+#cat{
+ display:none;
+ background: rgb(241, 236, 236) !important;
+ font-family: IRANYekanRegular;
+ 
+}
+
+#food{
+    display:none;
+    background:rgb(241, 236, 236) !important;
+    font-family: IRANYekanRegular;
+   }
+
+.font-icon{
+   font-size: 20px; 
+ }
+
+ #menu #footer{
+    width: 95%;
+    min-height: 20px;
+    margin:  0px; 
+    padding: 0px;   
+    float: right;
+    direction: rtl;
+    padding: 10px;
+}
+
+#CountOrder{
+  
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding:0px 5px;  
+}
+
+#ordes:hover #CountOrder{
+    background:  #fff !important;
+    color:  #FF8800;
+}

@@ -1,0 +1,82 @@
+.center{
+    text-align: center !important;
+    margin: 0 auto;   
+}
+
+#contorols{
+    min-height: 50px !important;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.label{
+    
+    color: black;
+    font: 13px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+    margin: 15px 10px 15px 5px;
+    padding: 0px;
+}
+
+#AppName{
+    width: 60%;
+    height: 40px;
+    padding:5px;
+    margin: 5px 12px;
+}
+
+#Maneger{
+    width: 60%;
+    height: 40px;
+    padding:5px;
+    margin: 5px 0px;
+}
+
+#LogoUrl{
+    width:50%;
+    height: 20px;
+    margin: 10px 40px 0px 10px;
+    cursor: pointer;
+}
+
+#status{
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    margin: 12px 20px;
+}
+
+#version{
+    width: 20%;
+    height: 30px;
+    text-align: left;
+    margin: 12px 28px;
+}
+
+#message{
+    width: 60%;
+   height: 60px;
+   resize: none;
+    text-align: right;
+    margin: 10px 5px;
+}
+
+
+
+#save{
+    margin: 20px 80px;
+    font: 15px tahoma;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#res{
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: green;
+    color:honeydew;
+    width: 50%;
+    text-align: center;
+    font: 12px tahoma;
+    margin:20px 15%;
+}

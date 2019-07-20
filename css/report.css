@@ -1,0 +1,194 @@
+.center{
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+
+.DateInput{
+     width: 125px !important;
+     text-align: center !important;
+     cursor: pointer !important;
+     background: whitesmoke !important;
+     
+    
+}
+
+.SumTotal {
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 50px !important; 
+    
+}
+
+.SumTotal strong{
+    background-color:rgb(238, 80, 80) !important;
+    padding: 15px !important;
+    color: #fff !important;
+    font: 15px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+    border-radius: 10px;
+}
+
+.tableRow{
+    font: 12px tahoma;
+    text-align: center;
+}
+
+#ptint{
+    background-color:rgb(50, 17, 197) !important;
+    padding: 5px 10px  !important;
+     border-radius: 5px  !important;
+     color: floralwhite  !important;
+     margin: 20px !important;
+     text-decoration:none;
+     margin-bottom: 20px !important;
+}
+
+#ptint:hover{
+    background-color:rgb(81, 53, 202) !important;
+}
+
+.PrintTittle{
+    width:100%;
+    background-color: rgb(56, 55, 55) !important;
+    color: white !important;
+    padding: 5px;
+    margin:0px;
+    
+}
+
+
+
+
+
+.page {
+    width:250mm;
+    min-height: 297mm;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+  
+    border: 2px red black;
+    height: 290mm;
+    padding: 10px;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    html, body {
+        width: 410mm;
+        height: 297mm;        
+    }
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+      
+    }
+}
+
+.loader{
+
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(241, 64, 0) !important;
+    border-bottom: 16px solid rgb(241, 64, 0) !important;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    float: right;
+    padding: 13px;
+    margin: -35px 50px;
+    position:  relative 
+ 
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #calunder{
+      border-radius: 10px;
+      width: 96%;
+      margin: 5px 20px;
+      float: right;
+      min-height: 70px;
+      background:#fb9678;
+      padding: 0px;
+      direction: rtl;
+  }
+  #Content{
+    min-height: 70px;
+    width: 100%;
+    margin: 0px;
+    float: right;
+    direction: rtl;
+}
+
+  #Report{
+    padding: 10px 20px  !important;
+    border-radius: 5px  !important;
+    color: floralwhite  !important;
+    float: right;
+    margin: 15px 0px;
+}
+
+#Report:hover{
+    background-color:rgb(219, 0, 0) !important;  
+}
+
+#Since{
+    float: right;
+     width: 100px;
+     height:40px;
+     font: 15px all-petite-caps  !important;
+     font-family: IRANYekanRegular  !important;
+     direction: rtl;
+     margin: 15px -10px;
+}
+#Until{
+    float: right;
+    width: 100px;
+    height:40px;
+    font: 15px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important;
+    direction: rtl;
+    margin: 15px -10px;
+}
+
+#Sincelabel{
+    margin: 25px 5px;
+    font: 12px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+    direction: rtl;
+    float: right;
+}
+
+#Untillabel{
+    margin: 25px 5px;
+    font: 12px all-petite-caps  !important;
+    font-family: IRANYekanRegular  !important; 
+    direction: rtl;
+    width: 100px;
+    float: right;
+}
+
+#Culanderbtn{
+    margin: 20px 20px 0px 0px;
+}

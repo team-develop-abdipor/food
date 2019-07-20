@@ -1,0 +1,34 @@
+.center{
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+#Name{
+    border: 1px darkgray solid;
+    width:220px;
+    height: 30px !important;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px !important;
+}
+ 
+#Sectionlabel{
+    padding: 0px;
+    width: 93px;
+    float: right;
+    margin: 10PX 0PX;
+    
+}
+#Code{
+    border: 1px darkgray solid;
+    width:220px;
+    height: 30px !important;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px !important;
+    text-align: left;
+}
+
+#category{
+    margin: 5px;
+}
