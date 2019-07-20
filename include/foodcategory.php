@@ -98,10 +98,10 @@ if(isset($_POST['add'])){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
 
                    
-                        <div class="modal-footer rtl" >
+                        <div class="modal-footer rtl">
                             <button type="submit" name="add"  class="btn btn-success" title="بروزرسانی">افزودن</button>
                             &nbsp&nbsp
                             <button type="button" class="btn btn-primary" data-dismiss="modal" title="انصراف">انصراف</button>
